@@ -57,10 +57,11 @@ const askerDel = 'Enter 1 to delete first node data' + '\nEnter 2 to delete the 
 const del = +prompt(askerDel)
 
 if(del === 1){
-  list.head.next.data = 0
+ 
+  list.head.data = 0
 }
 else if(del === 2){
-  list.head.data = 0
+
 }
 else if(del == 3){
   list.head.next.data.next.data = 0
